@@ -1,4 +1,5 @@
 #[int(input('')) for x in range(3)]
+
 def inputData(elem=0,rData=''):
     anot = ['Tarif cost (q-quit)\n','Traf in tarif (q-quit)\n','cost 1mb (q-quit)\n','traf next month (q-quit)\n']
     if(elem):
