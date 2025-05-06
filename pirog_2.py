@@ -13,4 +13,9 @@ def getCount():
             return peopleCount
 
 cnt = getCount()
-print(f'ret:{cnt}')
+#print(f'ret:{cnt}')
+
+if cnt % 2:
+    print(cnt // 2 + 1)
+else:
+    print(int(cnt / 2))
